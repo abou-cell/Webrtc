@@ -17,7 +17,7 @@
 		<script type="module">
 			import WHIPClient from './WHIPClient.js';
 
-			const url = '<WEBRTC_URL_FROM_YOUR_LIVE_INPUT>';
+			const url = 'https://customer-ovzapjagfajwhfx7.cloudflarestream.com/070a80b1b16aed8db438cabcc551052akfa3a3744aef44bafe35adf52a4e09ba2/webRTC/publish';
 			const videoElement = document.getElementById('input-video');
 
 			self.whipClient = new WHIPClient(url, videoElement);
@@ -30,7 +30,7 @@
 		<script type="module">
 			import WHEPClient from './WHEPClient.js';
 
-			const url = '<WEBRTC_PLAYBACK_URL_FROM_YOUR_LIVE_INPUT>';
+			const url = 'https://customer-ovzapjagfajwhfx7.cloudflarestream.com/fa3a3744aef44bafe35adf52a4e09ba2/webRTC/play';
 			const videoElement = document.getElementById('remote-video');
 
 			self.whepClient = new WHEPClient(url, videoElement);
